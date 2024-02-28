@@ -1,0 +1,81 @@
+
+body {
+
+    background-image: url(img/brother.png);
+    background-size: cover;
+
+}
+
+  body:before {
+    /* background-size:cover; */
+    background: rgba(100, 255, 0, 0.568);
+    content: " ";
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    z-index: -1;
+
+}
+
+
+	.loop{
+		display:flex;
+		justify-content: stretch;
+		
+		/* padding: 11px;
+		margin: 60px; */
+		font-size: 19px;
+		font-family:cursive;
+		
+	}
+
+.loop:hover{
+	background: #ffffff;
+
+	/* text-decoration: underline; */
+}
+	
+.buttons{
+		
+		/* float:right; */
+		/* color: #ffffff; */
+	display: flex;
+	justify-content:center;
+	
+	
+	font-size: 10px;
+	font-weight: bold;
+	text-transform: uppercase;
+	/* padding: 19px ; */
+	background: rgb(157, 226, 78);
+	border: 2px solid #6b6b6b;
+
+}
+
+.games{
+	display:flex;
+	flex-wrap:wrap;
+	gap: 28px;
+	/* align-items: center; */
+	justify-content: center;
+	
+		
+}
+
+.login{
+	display:contents;
+	justify-content:right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px; 
+	
+}
+
+.logo__PIZDOV{
+	display:contents;
+	justify-content:left;
+
+
+}
